@@ -1,1 +1,40 @@
 
+{
+  "authorized_keys": [
+    {
+      "key": "ABCD-1234-EFGH-5678",
+      "clientName": "محمود",
+      "validUntil": "2025-04-22T00:00:00Z",
+      "deviceId": null,
+      "notes": "عميل جديد - خطة شهرية"
+    },
+    {
+      "key": "IJKL-9012-MNOP-3456",
+      "clientName": "اسم العميل الثاني",
+      "validUntil": "2025-06-15T00:00:00Z",
+      "deviceId": null,
+      "notes": "خطة 3 شهور"
+    }
+  ],
+  "plans": [
+    {
+      "id": "monthly",
+      "name": "خطة شهرية",
+      "durationDays": 30,
+      "price": "10 دولار"
+    },
+    {
+      "id": "quarterly",
+      "name": "خطة 3 شهور",
+      "durationDays": 90,
+      "price": "25 دولار"
+    },
+    {
+      "id": "yearly",
+      "name": "خطة سنوية",
+      "durationDays": 365,
+      "price": "80 دولار"
+    }
+  ],
+  "lastUpdated": "2025-03-22T12:00:00Z"
+}
